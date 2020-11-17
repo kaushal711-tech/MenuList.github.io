@@ -1,6 +1,67 @@
-body{
-	font-size: 16px;
+
+#header-nav{
 	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1{
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+	padding-left: 25px;
+	margin-top: 0 ;
+	padding-bottom: 20px;
 	font-family: 'Oxygen', sans-serif;
-	color: #fff;
+}
+.navbar-brand a:hover , .navbar-brand a:focus{
+	text-decoration: none;
+}
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+.menu-item{
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: 'Oxygen' ,sans-serif;
+	color: black;
+	background-color: gray;
+}
+
+.text-center{
+	font-size: 30px;
+	color: black;;
+	font-weight: bold;
+	font-family: 'Oxygen', sans-serif;
+}
+.row{
+	margin: 10px;
+}
+.item-name{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Oxygen' , sans-serif;
+	color: black;
+}
+.box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	background-color: gray;
+	border: 1px solid black;
+}
+/*Medium devices only*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*Small devices only*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/*Extra Small Devices*/
+@media (max-width: 767px){
+
 }
